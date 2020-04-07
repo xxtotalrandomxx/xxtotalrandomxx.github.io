@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 * {
   margin: 0;
@@ -10,7 +10,7 @@
 
 body {
   overflow-x: hidden; /* remove horizantal scroll */
-  font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
   margin: 0;
   width: 100vw;
 }
@@ -52,7 +52,7 @@ ul li a {
 }
 
 .effect:hover {
-  color: #063540;
+  color: #B9C452;
   transition: 0.5s;
   font-weight: bold;
 }
@@ -102,7 +102,9 @@ footer a {
   font-style: italic;
   padding-top: 20px;
   position: relative;
+  vertical-align: middle;
 }
+
 
 .imagegroup img {
   display: block;
@@ -172,7 +174,7 @@ button {
   color: #fff;
   border-radius: 10px;
   font-size: 1em;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: bold;
 }
 
