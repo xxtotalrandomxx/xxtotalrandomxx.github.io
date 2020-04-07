@@ -1,55 +1,146 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html>
 <head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="css/main.css">
-  <title>Stephen Sum</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <title>Stephen Sum's Art Portfolio | Portfolio</title>
+  <script src="three.min.js"></script>
+  <script src="vanta.waves.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
+     data-auto-a11y="true"></script>
 </head>
 
 <body>
-  <header>
-    <a href="index.html">
-      <h1>Stephen Sum</h1>
-    </a>
-    <a href="statement.html">Artist Statement</a>
-  </header>
+  <div id="interactive"></div>
 
-  <div class="portfolio-item">
-    <img src="images/Photoshop Warmup Art.jpg" </img> <h3>Intro to Photoshop, Photoshop, 2019</h3>
-    <p>This piece was meant to be an exercise to prepare people on the basics of using Photoshop. In this exercise, we were given separate images and combine them into an inanimate being with the skills learned in Photoshop.</p>
+  <div class="container">
+    <h1>Stephen Sum</h1>
+    <ul>
+      <li><a href="index.html" class="effect">Home</a></li>
+      <li><a href="portfolio.html" class="effect">Portfolio</a></li>
+      <li id="about"><a href="about.html" class="effect">About</a></li>
+    </ul>
+
+    <center>
+  <div class="gallery">
+      <a href="Flower.html"><div class="imagegroup">
+        <img src="Pictures/Flower.jpg"></img>
+      <div class="overlay">
+          <div class="text">Decor<br><span class="selected">Graffite (Still Life), 2019</span></div>
+        </div>
+  </div></a>
+  <div class="imagegroup">
+      <a href="Glasses.html">
+        <img src="Pictures/Glasses.jpg"></img>
+      <div class="overlay">
+          <div class="text">Glasses<br><span class="selected">Pen, 2019</span></div>
+        </div>
+  </div></a>
+  <div class="imagegroup">
+      <a href="Wrist.html">
+        <img src="Pictures/Wrist.jpg"></img>
+      <div class="overlay">
+          <div class="text">The Wrist<br><span class="selected">Pen, 2019</span></div>
+        </div>
+  </div></a>
+  <div class="gallery">
+      <a href="Art2Project.html"><div class="imagegroup">
+        <img src="Pictures/Art2Project.jpg"></img>
+      <div class="overlay">
+          <div class="text">Leap of Life<br><span class="selected">Adobe Illustrator, 2018</span></div>
+        </div>
+  </div></a>
+  <div class="imagegroup">
+      <a href="RecycledMaterial.html">
+        <img src="Pictures/RecycledMaterial.jpg"></img>
+      <div class="overlay">
+          <div class="text">Recycle of Time<br><span class="selected">Recycled Material, 2018</span></div>
+        </div>
+  </div></a>
+  <a href="ReflectiveArt.html"><div class="imagegroup">
+      <img src="Pictures/ReflectiveArt.jpg">
+        <div class="overlay">
+          <div class="text">Reflection<br><span class="selected">Acrylic, 2019</span></div>
+        </div>
+      </div></a>
+    <div class="gallery">
+  <a href="GlitchArt.html"><div class="imagegroup">
+      <img src="Pictures/GlitchArt.jpg">
+        <div class="overlay">
+          <div class="text">Hatsune Noku<br><span class="selected">DMA (Glitch Art), 2019</span></div>
+        </div>
+    </div></a>
+      <a href="CompositeArt.html"><div class="imagegroup">
+          <img src="Pictures/CompositeArt.jpg">
+          <div class="overlay">
+            <div class="text">Closet of Memories<br><span class="selected">Adobe Illustrator, 2019</span></div>
+          </div>
+        </div>
+  <a href="FingerEmojiArt.html"><div class="imagegroup">
+              <img src="Pictures/FingerEmojiArt.jpg"></img>
+            <div class="overlay">
+                <div class="text">Pinky Emoji<br><span class="selected">Adobe Illustrator, 2019</span></div>
+              </div>
+        </div></a>
+    <div class="gallery">
+        <a href="SocialMovement.html"><div class="imagegroup">
+          <img src="Pictures/SocialMovement.jpg"></img>
+        <div class="overlay">
+            <div class="text">Equality<br><span class="selected">Photography/Lightroom, 2019</span></div>
+          </div>
+    </div></a>
+    <div class="imagegroup">
+        <a href="SelfPortrait.html">
+          <img src="Pictures/SelfPortrait.jpg"></img>
+        <div class="overlay">
+            <div class="text">Portrayal<br><span class="selected">Photography/Lightroom, 2018</span></div>
+          </div>
+    </div></a>
+    <div class="imagegroup">
+        <a href="Nature.html">
+          <img src="Pictures/Nature.jpg"></img>
+        <div class="overlay">
+            <div class="text">Portal to Another Reality<br><span class="selected">Acrylic, 2019</span></div>
+          </div>
+    </div></a>
+    <div class="gallery">
+        <a href="Wrench.html"><div class="imagegroup">
+          <img src="Pictures/Wrench.jpg"></img>
+        <div class="overlay">
+            <div class="text">The Wrench<br><span class="selected">Geometric Art, 2019</span></div>
+          </div>
+    </div></a>
+    <div class="imagegroup2">
+        <a href="Escape.html">
+          <iframe src="Pictures/Escape.mp4"></iframe>
+             <p><span class="selected">The Walk</span>, Digital Media Art, 2020</p>
+          </div>
+    </div></a>
+  </center>
+
   </div>
 
-  <div class="portfolio-item">
-    <img src="images/Jellyfish Exercise Art.jpg" </img> <h3>Distorting Jellyfish, Photoshop, 2019</h3>
-    <p>This piece was an exercise to practice editing in Photoshop. We mixed different filters and distortions in the software and messed around with the contrast and color of the image.</p>
-  </div>
+    <footer class="footerflex">
+      <center>
+      <a href="mailto:sryansum@gmail.com?Subject=Hello%20There" target="_top" class="effect"><i class="icon fas fa-envelope"></i></a>
+      <a href="https://www.instagram.com/_steeepheen_/" class="effect"><i class="icon fab fa-instagram"></i></a>
+      <a href="https://www.youtube.com/user/blaknite3000/" class="effect"><i class="icon fab fa-youtube"></i>
+      </center>
+    </footer>
 
-  <div class="portfolio-item">
-    <img src="images/Glitch Art.jpg" </img> <h3>Hatsune Misfortu, Audio, 2019</h3>
-    <p>This piece was my first attempt at distorting an image so that the image looks like it has a bug or “glitch” in the system while making the image. This piece gave me an opportunity to play around in an audio editing software and learn how to
-      edit using sound waves.</p>
-  </div>
-
-  <div class="portfolio-item">
-    <img src="images/Composite Art.jpg" </img> <h3>Closet of Memories, Photoshop, 2019</h3>
-    <p>This piece was a collaborative effort with a group of others and our idea was to combine our three pieces to connect as though these subjects of our choosing were stored away in a place where they would never be seen nor used again like in a
-      closet or a hardware. My piece was a mix of a couple different popular animes that have been stored away as if they were kept as memories.</p>
-  </div>
-
-  <div class="portfolio-item">
-    <img src="images/Finger Emoji Art.jpg" </img> <h3>Pinky Finger, Photoshop, 2019</h3>
-    <p>This piece was created to represent the making of current emojis in people’s media. I created a piece that resembled the same purpose as the finger emojis. I, instead, did the pinky finger sticking out because it means multiple purposes such
-      as the etiquette of royalty drinking, or the swear finger in most asian cultures.</p>
-  </div>
-
-  <div class="portfolio-item">
-    <iframe src="https://player.vimeo.com/video/321864096" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    <h3>Unfortunate Life, Video, 2019</h3>
-    <p>This piece was a video created of a story about this cup. It was unintentional at first, but as my partner and I took more and more photos, we found that this cup was in mostly all of our clips. When the video plays out, it tells a short
-      preview of the adventure this cup has gone through before it meets its unfortunate demise.</p>
-  </div>
+    <script>
+  VANTA.WAVES({
+    el: "#interactive",
+    mouseControls: true,
+    touchControls: true,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    color1: 0x33007d,
+    color2: 0x35f2d0,
+    size: 2.10,
+    speed: 3.50
+  })
+  </script>
 
 </body>
-
 </html>
