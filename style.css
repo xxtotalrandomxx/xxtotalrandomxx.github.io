@@ -15,6 +15,15 @@ font-family: 'Raleway', sans-serif;
   width: 100vw;
 }
 
+.center {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 .container {
   width: 85vw;
   height: auto;
@@ -63,16 +72,28 @@ ul li a {
   font-weight: bold;
 }
 
+.effect3:hover {
+  color: 0x980b46;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+.effect4:hover {
+  color: 0x6fb322;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
 #about {
   padding-right:0;
+  padding-left:0;
 }
 
 footer {
   color: #fff;
   width: 100%;
-  position: absolute;
   bottom: 0;
-  padding: 50px;
+  position: relative;
   font-size: 2em;
 }
 
