@@ -57,6 +57,12 @@ ul li a {
   font-weight: bold;
 }
 
+.effect2:hover {
+  color: #42AEB8;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
 #about {
   padding-right:0;
 }
@@ -82,6 +88,7 @@ footer a {
 /* PORTFOLIO PAGE STYLES */
 
 .imagegroup {
+  height: center;
   width:32%;
   color: #fff;
   display: inline-block;
@@ -206,7 +213,7 @@ h4 {
 }
 
 .navigation {
-  background-color: #42AEB8;
+  background-color: #233CCF;
   width: 100vw;
   padding-bottom: 100px;
   height: 0 auto;
@@ -215,7 +222,7 @@ h4 {
 
 .previous {
   float: left;
-  background-color: #42AEB8;
+  background-color: #233CCF;
   text-align: left;
 }
 
@@ -226,7 +233,7 @@ h4 {
 
 .next {
   float: right;
-  background-color: #42AEB8;
+  background-color: #233CCF;
   text-align: right;
 }
 
