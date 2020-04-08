@@ -52,7 +52,7 @@ ul li a {
 }
 
 .effect:hover {
-  color: #B9C452;
+  color: #233CCF;
   transition: 0.5s;
   font-weight: bold;
 }
@@ -180,7 +180,7 @@ button {
 
 button:hover {
   background-color: #fff;
-  color:#0f0b30;
+  color:#fff;
   transition: 0.5s;
   cursor: pointer;
 }
