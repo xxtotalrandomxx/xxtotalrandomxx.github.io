@@ -73,13 +73,13 @@ ul li a {
 }
 
 .effect3:hover {
-  color: 0x980b46;
+  color: #980b46;
   transition: 0.5s;
   font-weight: bold;
 }
 
 .effect4:hover {
-  color: 0x6fb322;
+  color: #6fb322;
   transition: 0.5s;
   font-weight: bold;
 }
